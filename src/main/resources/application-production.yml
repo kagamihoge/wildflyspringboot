@@ -1,0 +1,8 @@
+server:
+  contextPath: /wildflyspringboot
+
+spring:
+  datasource:
+    jndi-name: java:/PostgresDS
+  thymeleaf:
+    mode: HTML

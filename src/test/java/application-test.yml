@@ -1,0 +1,13 @@
+server:
+  contextPath: /wildflyspringboot
+
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.10.23:5432/testdb
+    username: postgres
+    password: a
+  thymeleaf:
+    mode: HTML
+
+unit-test:
+  value: hoge
